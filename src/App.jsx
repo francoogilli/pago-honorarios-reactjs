@@ -29,7 +29,7 @@ const App = () => {
       return;
     }
 
-    emailjs.sendForm('service_oxq9vhq', 'template_xm1vqgb', e.target, 'IEnMnqCJW3AbITJH4')
+    emailjs.sendForm('service_n9gca98', 'template_zhp20js', e.target, 'vHJTmMLQaFnRj43ci')
       .then(() => {
         setButtonIcon('Check');
         setButtonWidth('auto');
